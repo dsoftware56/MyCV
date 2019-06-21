@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="azul_fondo_framgent">#00338D</color>
+    <color name="azul_fondo_layout_false">#0f3d99</color>
+    <color name="azul_fondo_layout_true">#244eae</color>
+    <color name="azul_fondo_button_drawer_false">#00338D</color>
+    <color name="azul_fondo_button_drawer_true">#0f3d99</color>
+    <color name="azul_drawer">#00338D</color>
+    <color name="azul_sliding_off">#535bf4</color>
+    <color name="azul_sliding_on">#2b3087</color>
+    <color name="black">#000000</color>
+    <color name="blanco_azulado">#d0f3fc</color>
+    <color name="gris_claro">#f5f7fb</color>
+</resources>

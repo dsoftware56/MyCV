@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/gris_claro"
+    android:weightSum="100">
+    <!-- weight: 100 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <!-- weight: 90 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="90"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/activity_preciadorunico_scroll"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/title"
+                            android:textColor="@color/azul_drawer"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/foto_img2" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/profesional_objetive_title"
+                            android:textColor="@color/azul_drawer"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/profesional_objetive"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="3dp"
+                            android:layout_margin="15dp"
+                            android:alpha="0.6"
+                            android:background="@color/azul_drawer" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Experience"
+                            android:textColor="@color/azul_drawer"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/telcel_title"
+                            android:textColor="@color/azul_drawer"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="Company: "
+                                android:textColor="@color/azul_drawer"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/telcel_name"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:scaleType="fitStart"
+                                android:src="@drawable/telcel_ico" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="Description: "
+                                android:textColor="@color/azul_drawer"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/telcel_name"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/telcel_desc"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="3dp"
+                            android:layout_margin="15dp"
+                            android:alpha="0.6"
+                            android:background="@color/azul_drawer" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/banxico_title"
+                            android:textColor="@color/azul_drawer"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="Company: "
+                                android:textColor="@color/azul_drawer"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/banxico_name"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:scaleType="fitStart"
+                                android:src="@drawable/banxico_ico" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="Description: "
+                                android:textColor="@color/azul_drawer"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/telcel_name"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/banxico_desc"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="3dp"
+                            android:layout_margin="15dp"
+                            android:alpha="0.6"
+                            android:background="@color/azul_drawer" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/scala_title"
+                            android:textColor="@color/azul_drawer"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="Company: "
+                                android:textColor="@color/azul_drawer"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/scala_name"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:scaleType="fitStart"
+                                android:src="@drawable/scala_ico" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="Description: "
+                                android:textColor="@color/azul_drawer"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/scala_name"
+                                android:textColor="@color/black"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/scala_desc"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="3dp"
+                            android:layout_margin="15dp"
+                            android:alpha="0.6"
+                            android:background="@color/azul_drawer" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Skills"
+                            android:textColor="@color/azul_drawer"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/skills"
+                            android:textColor="@color/black"
+                            android:layout_marginBottom="15dp"
+                            android:textSize="18dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

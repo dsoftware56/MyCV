@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyCV</string>
+    <string name="title_activity_cv">CvActivity</string>
+    <string name="title">ISC. Javier Pulido</string>
+    <string name="profesional_objetive_title">Professional objective</string>
+    <string name="profesional_objetive">Be a committed professional, fulfilling the objectives of responsibility, dedication, and honesty, doing quality work, thus achieving my goals and contributing to my personal development and that of my company, with the commitment to improve myself every day and constantly train me.</string>
+    <string name="telcel_title">27/August/2018 - Currently</string>
+    <string name="telcel_name">Telcel - Praxis</string>
+    <string name="telcel_function">Android Developer</string>
+    <string name="telcel_desc">A web system and Android app was developed through which the prices shown in the CACs for each cell were administered.
+Likewise, the Android application that consumed these services was developed.</string>
+    <string name="banxico_title">20/January/2016 - 24/August/2018</string>
+    <string name="banxico_name">Banxico - Pae</string>
+    <string name="banxico_function">Android Developer</string>
+    <string name="banxico_desc">A web system was developed for Banco de México that worked hand in hand with an application developed in the Android OS.
+The purpose is to obtain and process images from a mobile device to a Big Data cluster (Cloudera), for an information analysis.
+On the mobile device, OCR recognition was implemented with the Tesseract library, augmented reality with the Vuforia platform, pattern recognition with OpenCV and implementation of C ++ code.
+Note: Due to the privacy of the project I can not explain it in detail, but technically I can explain my experience with the technologies mentioned below..</string>
+    <string name="scala_title">04/August/2014 - 12/December/2015</string>
+    <string name="scala_name">Scala</string>
+    <string name="scala_function">Android Developer</string>
+    <string name="scala_desc">Creation of a web system in order to manage the activities of the staff.
+The system was based on the allocation of activities to employees and also measure the productivity of them.
+The directors and area managers could visualize all the tasks and slopes registered by the users, as well as the possibility of adding extra tasks if necessary.
+The system was divided into modules: user administration, activity log, activity report and site administration.
+With this system it was intended to have a better planning and control of the activities carried out by the operative employees of SCALA®.</string>
+    <string name="skills">Genymotion, Retrofit, SqLite, Volley, Firebase, Google-MapsApi, Lint, SharedPreferences, MVC, MVP, JSON, XML, Invision, Java J2EE, REST services, SOAP services, SQL Server, Oracle, DAO, UML, Log4J, Sonar, Jenkins, Maven, Eclipse, DbVisualizer, Web Sphere 8.5 - 9, Spring, Spring-Boot, Tomcat-Apache, SoapUi, Storm (Rest client).</string>
+
+</resources>
